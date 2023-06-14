@@ -14,7 +14,6 @@
 	.copy-right {
 		color: $light-color;
 		a {
-			text-decoration :none;
 			color: $light-color;
 			&:hover {
 				color: $hover-color;
@@ -29,7 +28,6 @@
 			li {
 				margin: 0 5px;
 				a {
-					text-decoration :none;
 					background-color: rgba($primary-color, 0.44);
 					font-size: 14px;
 					@include border-radius(100%);
@@ -92,7 +90,6 @@
 					}
 				}
 				a {
-					text-decoration :none;
 					color: $light-color;
 					font-size: 13px;
 					&:hover,
@@ -127,7 +124,6 @@
 			ul {
 				li {
 					a {
-						text-decoration :none;
 						font-size: 13px;
 						font-weight: normal;
 					}
@@ -158,7 +154,6 @@
 			li {
 				margin-bottom: 10px;
 				a {
-					text-decoration :none;
 					color: $light-color;
 					&:hover,
 					&:focus,
@@ -218,7 +213,6 @@
 			z-index: 1;
 		}
 		a {
-			text-decoration :none;
 			color: $primary-color;
 			&:hover {
 				~ .hotspot-content {
