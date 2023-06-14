@@ -79,7 +79,7 @@ const SideBar = () => {
                 <nav id="navigation" class="navigation d-none d-lg-inline-block">
                    <ul>
                       <li class="current-menu-item">
-                         <Link href="/"  style={{textDecoration:"none"}} >Home</Link>
+                         <Link href="/"  style={{textDecoration:"none"}} >Home 1</Link>
                       </li>
                       <li>
                          <Link href="/about"  style={{textDecoration:"none"}} >About</Link>
