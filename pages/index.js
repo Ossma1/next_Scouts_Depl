@@ -16,19 +16,19 @@ export default function Home() {
              <div class="col-lg-8 offset-lg-2">
                 <div class="banner-content text-center">
                    <div class="section-head">
-                      <div class="back-title">DONATION</div>
-                      <h2 class="section-title banner-title">Make An Impact & Give Back To <span class="primary-color">Nature 
-                         <svg class="title-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none">
-                            <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"></path>
-                         </svg>
-                      </span></h2>
+                   <div class="back-title">التبرع</div>
+                      <h1 class="section-title banner-title">  أحدث تأثيرًا <br></br> <span class="primary-color">التبرعات
+                      <svg class="title-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none">
+                         <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"></path>
+                      </svg>
+                   </span> وقدم للطبيعة </h1>
                    </div>
                    <div class="banner-text">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, ipsum dolor sit pulvinar dapibus leo ipsum dolor sit.</p>
                    </div>
                    <div class="banner-button">
-                      <a style={{textDecoration:"none"}} href="about.html" class="button-round-primary">Learn More</a>
-                      <a style={{textDecoration:"none"}} href="donate.html" class="button-round-white">Donate Fund</a>
+                      <a style={{textDecoration:"none",fontSize:"16px"}} href="about.html" class="button-round-primary">تعرف أكثر</a>
+                      <a style={{textDecoration:"none",fontSize:"16px"}} href="donate.html" class="button-round-white"> كن متطوعًا</a>
                    </div>
                 </div>
              </div>
@@ -43,13 +43,13 @@ export default function Home() {
              <div class="row align-items-center">
                 <div class="col-lg-6">
                    <div class="section-head white-section-head">
-                      <div class="back-title">INVOLVE NOW</div>
-                         <h2 class="section-title">Let's Join To Build The Better World <span class="primary-color">Together 
-                            <svg class="title-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none">
-                               <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"></path>
-                            </svg>
-                         </span>
-                      </h2>
+                   <div class="back-title">شارك الآن</div>
+                   <h1 class="section-title">  انضم الآن لبناء<br></br><span class="primary-color">معًا 
+                   <svg class="title-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none">
+                      <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"></path>
+                   </svg>
+                </span> عالم أفضل 
+                </h1>
                       <div class="section-disc">
                          Odit fugit excepteur eiusmod fames, aliqua odio phasellus aliqua aenean, ratione primis. Nobis molestie adipisicing iaculis vel do, assumenda rutrum? Consequatur unde impedit scelerisque cillum aliqua odio phasellus .
                       </div>
@@ -144,13 +144,13 @@ export default function Home() {
                 <div class="section-about-right">
                    <div class="section-about-content">
                       <div class="section-head">
-                         <div class="back-title">ABOUT US</div>
-                         <h2 class="section-title">We Have Power Today To Change <span class="primary-color">Tomorrow! 
+                      <div class="back-title">عنّا</div>
+                      <h1 class="section-title"><span class="primary-color">!الغد
                             <svg class="title-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none">
                                <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"></path>
                             </svg>
-                            </span>
-                         </h2>
+                            </span> لدينا القوة اليوم لتغيير
+                         </h1>
                          <div class="section-disc">
                             Odit fugit excepteur eiusmod fames, aliqua odio phasellus aliqua aenean, ratione primis. Nobis molestie adipisicing iaculis vel do, assumenda rutrum? Consequatur unde impedit scelerisque cillum aliqua odio phasellus .
                          </div>
@@ -210,13 +210,13 @@ export default function Home() {
           <div class="row">
              <div class="col-lg-8 offset-lg-2">
                 <div class="section-head text-center">
-                   <div class="back-title">POPULAR CAUSES</div>
-                      <h2 class="section-title">Checkout Popular <span class="primary-color">Causes
+                   <div class="back-title"> الأسباب الشعبية</div>
+                      <h1 class="section-title">  تحقق من   <span class="primary-color"> الأسباب 
                          <svg class="title-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none">
                             <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"></path>
                          </svg>
-                      </span>
-                   </h2>
+                      </span> الشعبية
+                   </h1>
                    <div class="section-disc">
                       Assumenda occaecat cursus iaculis ab non, assumenda natoque aliquid sunt fusce quasi quod unde, ridiculus.
                    </div>
@@ -319,13 +319,13 @@ export default function Home() {
           <div class="row align-items-center">
              <div class="col-lg-6">
                 <div class="section-head white-section-head">
-                   <div class="back-title">ABOUT US</div>
-                   <h2 class="section-title">We Have Power Today To Change <span class="primary-color">Tomorrow! 
+                   <div class="back-title">من نحن</div>
+                   <h1 class="section-title"><span class="primary-color">! الغد
                       <svg class="title-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none">
                          <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"></path>
                       </svg>
-                      </span>
-                   </h2>
+                      </span> لدينا القوة اليوم لتغيير 
+                   </h1>
                    <div class="section-disc">
                       Odit fugit excepteur eiusmod fames, aliqua odio phasellus aliqua aenean, ratione primis. Nobis molestie adipisicing iaculis vel do, assumenda rutrum? Consequatur unde impedit scelerisque cillum aliqua odio phasellus .
                    </div>
@@ -334,30 +334,30 @@ export default function Home() {
                    <a style={{textDecoration:"none"}} id="video-container-two" data-video-id="IUN664s7N-c">
                       <i class="fas fa-play"></i>
                    </a>
-                   <span>PLAY SHORT VIDEO</span>
+                   <span>تشغيل فيديو قصير</span>
                 </div>
              </div>
              <div class="col-lg-6">
-                <div class="home-contact-form">
-                   <form class="contact-form row">
-                      <div class="col-12 mb-4">
-                         <input type="text" class="form-control" placeholder="Enter Name*" />
-                      </div>
-                      <div class="col-12 mb-4">
-                         <input type="email" class="form-control" placeholder="Enter Email*"/>
-                      </div>
-                      <div class="col-sm-7 mb-4">
-                         <input type="number" class="form-control" placeholder="Enter Phone No*"/>
-                      </div>
-                      <div class="col-sm-5 mb-4">
-                         <input type="number" class="form-control" placeholder="Enter Code*"/>
-                      </div>
-                      <div class="col-12">
-                         <button type="submit" class="button-round-secondary">Get Involve Today</button>
-                      </div>
-                   </form>
-                </div>
-             </div>
+    <div class="home-contact-form">
+        <form class="contact-form row">
+            <div class="col-12 mb-4">
+                <input type="text" class="form-control" placeholder="ادخل الاسم*" />
+            </div>
+            <div class="col-12 mb-4">
+                <input type="email" class="form-control" placeholder="ادخل البريد الإلكتروني*" />
+            </div>
+            <div class="col-sm-7 mb-4">
+                <input type="number" class="form-control" placeholder="ادخل رقم الهاتف*" />
+            </div>
+            <div class="col-sm-5 mb-4">
+                <input type="number" class="form-control" placeholder="ادخل الكود*" />
+            </div>
+            <div class="col-12">
+                <button type="submit" class="button-round-secondary">انضم اليوم</button>
+            </div>
+        </form>
+    </div>
+</div>
           </div>
        </div>
        <div class="overlay"></div>
@@ -368,13 +368,13 @@ export default function Home() {
           <div class="row">
              <div class="col-lg-8 offset-lg-2">
                 <div class="section-head white-section-head text-center">
-                   <div class="back-title">OUR EVENT</div>
-                      <h2 class="section-title">Join Our <span class="primary-color">Events
+                   <div class="back-title">فعالياتنا</div>
+                      <h1 class="section-title"><span class="primary-color">فعالياتنا
                          <svg class="title-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none">
                             <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"></path>
                          </svg>
-                      </span>
-                   </h2>
+                      </span> انضم إلى  
+                   </h1>
                    <div class="section-disc">
                       AUt commodo pulvinar veritatis occaecati mauris, tristique tristique turpis pharetra beatae litora donec pharetra, recusandae, volutpat.
                    </div>
@@ -448,13 +448,13 @@ export default function Home() {
           <div class="row">
              <div class="col-lg-8 offset-lg-2">
                 <div class="section-head text-center">
-                   <div class="back-title">PORTFOLIO</div>
-                      <h2 class="section-title">Portfolio <span class="primary-color">Gallery
+                   <div class="back-title">أعمالنا</div>
+                      <h1 class="section-title"> <span class="primary-color">أعمالنا
                          <svg class="title-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none">
                             <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"></path>
                          </svg>
-                      </span>
-                   </h2>
+                      </span> معرض
+                   </h1>
                    <div class="section-disc">
                       Ut commodo pulvinar veritatis occaecati mauris, tristique tristique turpis pharetra beatae litora donec pharetra, recusandae, volutpat.
                    </div>
@@ -527,7 +527,7 @@ export default function Home() {
     <section class="client-section">
        <div class="container">
           <h5 class="divider-title">
-             <span>PARTNER & SPONSERS</span>
+             <span>شركاء و رعاة</span>
           </h5>
           <div class="client-wrap client-slider text-center">
              <div class="client-item">
@@ -598,98 +598,109 @@ export default function Home() {
                 </div>
              </div>
              <div class="col-lg-6">
-                <div class="counter-inner">
-                   <div class="section-head white-section-head">
-                      <div class="back-title">FUN FACT</div>
-                         <h2 class="section-title">Our Work Promise To Uphold The <span class="primary-color">Trust ! 
-                            <svg class="title-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none">
-                               <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"></path>
-                            </svg>
-                         </span>
-                      </h2>
-                      <div class="section-disc">
-                         Odit fugit excepteur eiusmod fames, aliqua odio phasellus aliqua aenean, ratione primis. Nobis molestie adipisicing iaculis vel do, assumen.
-                      </div>
-                   </div>
-                   <div class="counter-wrap">
-                      <div class="counter-item">
+             <div class="counter-inner">
+                 <div class="section-head white-section-head">
+                     <div class="back-title">حقيقة ممتعة</div>
+                     <h1 class="section-title"> <span class="primary-color">! الثقة
+                             <svg class="title-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none">
+                                 <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"></path>
+                             </svg>
+                         </span> وعد عملنا بالحفاظ على
+                     </h1>
+                     <div class="section-disc">
+                        ****************************** </div>
+                 </div>
+                 <div class="counter-wrap">
+                     <div class="counter-item">
                          <div class="counter-content">
-                            <span class="counter-no">
-                               <span class="counter">320</span>+
-                            </span>
-                            <span class="counter-text">
-                               Project Done
-                            </span>
+                             <span class="counter-no">
+                                 <span class="counter">320</span>+
+                             </span>
+                             <span class="counter-text">
+                                 المشاريع المنجزة
+                             </span>
                          </div>
-                      </div>
-                      <div class="counter-item">
+                     </div>
+                     <div class="counter-item">
                          <div class="counter-content">
-                            <span class="counter-no">
-                               <span class="counter">25</span>+
-                            </span>
-                            <span class="counter-text">
-                               Award Achieved
-                            </span>
+                             <span class="counter-no">
+                                 <span class="counter">25</span>+
+                             </span>
+                             <span class="counter-text">
+                                 الجوائز المحققة
+                             </span>
                          </div>
-                      </div>
-                      <div class="counter-item">
+                     </div>
+                     <div class="counter-item">
                          <div class="counter-content">
-                            <span class="counter-no">
-                               <span class="counter">18</span>+
-                            </span>
-                            <span class="counter-text">
-                               Office Branches
-                            </span>
+                             <span class="counter-no">
+                                 <span class="counter">18</span>+
+                             </span>
+                             <span class="counter-text">
+                                 الفروع الإدارية
+                             </span>
                          </div>
-                      </div>
-                      <div class="counter-item">
+                     </div>
+                     <div class="counter-item">
                          <div class="counter-content">
-                            <span class="counter-no">
-                               <span class="counter">5</span>K+
-                            </span>
-                            <span class="counter-text">
-                               Happy Volunteer
-                            </span>
+                             <span class="counter-no">
+                                 <span class="counter">5</span>K+
+                             </span>
+                             <span class="counter-text">
+                                 المتطوعين السعداء
+                             </span>
                          </div>
-                      </div>
-                   </div>
-                </div>
+                     </div>
+                 </div>
              </div>
-          </div>
-       </div>
-       <div class="overlay"></div>
-    </section>
+         </div>
+         </div>
+         </div>
+         <div class="overlay"></div>
+         </section>
+        
     {/* home testimonial section html start */}
     <section class="testimonial-section bg-light-grey">
-       <div class="container">
-          <div class="row">
-             <div class="col-lg-8 offset-lg-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
                 <div class="section-head text-center">
-                   <div class="back-title">TESTIMONIAL</div>
-                      <h2 class="section-title">Donator's <span class="primary-color">Reviews
-                         <svg class="title-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none">
+                    <div class="back-title">شهادات العملاء</div>
+                    <h1 class="section-title"> <span class="primary-color"> الحقيقية  
+                        <svg class="title-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none">
                             <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"></path>
-                         </svg>
-                      </span>
-                   </h2>
-                   <div class="section-disc">
-                      Ut commodo pulvinar veritatis occaecati mauris, tristique tristique turpis pharetra beatae litora donec pharetra, recusandae, volutpat.
-                   </div>
+                        </svg>
+                    </span> آراء المتبرعين
+                       
+                    </h1>
+                    <div class="section-disc">
+                        يجمع تقييمنا العالي على رضا المتبرعين وثقتهم فينا.
+                    </div>
                 </div>
-             </div>
-          </div>
-          <div class="testimonial-inner">
-             <div class="row">
+            </div>
+        </div>
+        <div class="testimonial-inner">
+            <div class="row">
                 <div class="col-md-6">
-                   <div class="testimonial-item d-flex flex-wrap align-items-center">
-                      <figure class="testimonial-img">
-                         <img src="/assets/images/author-img1.jpg" alt=""/>
-                      </figure>
-                      <div class="testimonial-content">
-                         <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinarac dapibus leo. Cras cursus facere, numquam ultrica orci optio! Fames, ab alias.”</p>
-                      </div>
-                   </div>
+                    <div class="testimonial-item d-flex flex-wrap align-items-center">
+                        <figure class="testimonial-img">
+                            <img src="/assets/images/author-img1.jpg" alt=""/>
+                        </figure>
+                        <div class="testimonial-content">
+                            <p>“لوريم إيبسوم دولور سيت أميت، كونسيكتيتور أديبيسينج إليت. أوت إيليت تيلوس، لكتوس نيك أولامكوربر ماتيس، بولفيناراك دابيبوس ليو. كراس كورسوس فاسيري، نومكوام الأولتريكا أورسي أوبتيو! فاميس ، أب ألياس." </p>
+                        </div>
+                    </div>
                 </div>
+                <div class="col-md-6">
+                    <div class="testimonial-item d-flex flex-wrap align-items-center">
+                        <figure class="testimonial-img">
+                            <img src="/assets/images/author-img2.jpg" alt=""/>
+                        </figure>
+                        <div class="testimonial-content">
+                            <p>“لوريم إيبسوم دولور سيت أميت، كونسيكتيتور أديبيسينج إليت. أوت إيليت تيلوس، لكتوس نيك أولامكوربر ماتيس
+                            </p></div>
+                            </div>
+                            </div>
                 <div class="col-md-6">
                    <div class="testimonial-item d-flex flex-wrap align-items-center">
                       <figure class="testimonial-img">
@@ -731,13 +742,14 @@ export default function Home() {
           <div class="row">
              <div class="col-lg-8 offset-lg-2">
                 <div class="section-head text-center">
-                   <div class="back-title">RECENT BLOG</div>
-                      <h2 class="section-title">Our Latest <span class="primary-color">Insights
+                   <div class="back-title">تدويناتنا الأخيرة</div>
+                      <h1 class="section-title"> <span class="primary-color" > رؤى لدينا
                          <svg class="title-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none">
                             <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"></path>
                          </svg>
-                      </span>
-                   </h2>
+                      </span> أحدث 
+                         
+                   </h1>
                    <div class="section-disc">
                       Ut commodo pulvinar veritatis occaecati mauris, tristique tristique turpis pharetra beatae litora donec pharetra, recusandae, volutpat.
                    </div>
@@ -832,19 +844,20 @@ export default function Home() {
              <div class="col-lg-8">
                 <div class="callback-content">
                    <div class="section-head">
-                      <div class="back-title">BE A VOULNTEER</div>
-                      <h2 class="section-title">Let's Change The World, Join Us Now And Become A <span class="primary-color">Volunteer ! 
+                      <div class="back-title">
+                      كن متطوعًا</div>
+                      <h1 class="section-title">  <span class="primary-color"> !متطوعًا  
                          <svg class="title-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none">
                             <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"></path>
                          </svg>
-                         </span>
-                      </h2>
+                         </span> لنغير العالم، انضم إلينا الآن وكن 
+                      </h1>
                    </div>
                 </div>
              </div>
              <div class="col-lg-4">
                 <div class="button-right">
-                   <a style={{textDecoration:"none"}} href="volunteer.html" class="button-round-primary">BECOME A VOLUNTEER</a>
+                <a style={{textDecoration:"none",fontSize:"16px"}} href="volunteer.html"  class="button-round-primary">كن متطوعًا</a>
                 </div>
              </div>
           </div>

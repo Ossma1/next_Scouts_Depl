@@ -79,10 +79,10 @@ const SideBar = () => {
                 <nav id="navigation" class="navigation d-none d-lg-inline-block">
                    <ul>
                       <li class="current-menu-item">
-                         <Link href="/"  style={{textDecoration:"none"}} >Home 1</Link>
+                         <Link href="/"  style={{textDecoration:"none"}} >الرئيسية</Link>
                       </li>
                       <li>
-                         <Link href="/about"  style={{textDecoration:"none"}} >About</Link>
+                         <Link href="/about"  style={{textDecoration:"none"}} >من نحن</Link>
                       </li>
                       <li class="menu-item-has-children">
                          <a style={{textDecoration:"none"}} href="#">Pages</a>
@@ -147,7 +147,7 @@ const SideBar = () => {
                          </ul>
                       </li>
                       <li>
-                         <a style={{textDecoration:"none"}} href="contact.html">Contact</a>
+                         <a style={{textDecoration:"none"}} href="contact.html">اتصل بنا</a>
                       </li>
                    </ul>
                 </nav>
