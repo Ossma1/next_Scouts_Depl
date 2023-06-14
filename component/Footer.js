@@ -1,10 +1,10 @@
 import React from 'react'
 import Search from './Search'
-
 const Footer = () => {
   return (
    <>
     <footer id="colophon" class="site-footer footer-primary">
+ 
             <div class="top-footer">
                <div class="container">
                   <div class="upper-footer">
@@ -12,6 +12,7 @@ const Footer = () => {
                         <div class="col-lg-3 col-md-6">
                            <aside class="widget widget_text">
                               <div class="footer-logo">
+                      ظ
                                  <a href="index.html"><img src="assets/images/site-logo1.png" alt=""/></a>
                               </div>
                               <div class="textwidget widget-text">
@@ -21,8 +22,8 @@ const Footer = () => {
                         </div>
                         <div class="col-lg-3 col-md-6">
                            <aside class="widget widget_text">
-                              <h3 class="widget-title">Contact Information</h3>
-                              <p>Feel free to contact and reach us !</p>
+                           <h3>معلومات الاتصال</h3>
+                           <p>لا تتردد في التواصل والوصول إلينا!</p>
                               <div class="textwidget widget-text">
                                  <ul>
                                     <li>
@@ -47,7 +48,7 @@ const Footer = () => {
                         </div>
                         <div class="col-lg-3 col-md-6">
                            <aside class="widget widget_map_hotspots">
-                              <h3 class="widget-title">Office Location</h3>
+                              <h3 class="widget-title">موقع المكتب</h3>
                               <div class="widget-map">
                                  <img src="assets/images/map-img1.png" alt="" />
                                  <div class="hotspot">
@@ -87,20 +88,21 @@ const Footer = () => {
                         </div>
                         <div class="col-lg-3 col-md-6">
                            <aside class="widget">
-                              <h3 class="widget-title">Support</h3>
+                              <h3 class="widget-title">دعم العملاء</h3>
                               <ul>
-                                 <li>
-                                    <a href="contact.html">Help Center</a>
-                                 </li>
-                                 <li>
-                                    <a href="contact.html">Contact Us</a>
-                                 </li>
-                                 <li>
-                                    <a href="donate.html">Payment Center</a>
-                                 </li>
-                                 <li>
-                                    <a href="event-archive.html">Parent Community</a>
-                                 </li>
+                              
+<li>
+<a href="contact.html">مركز المساعدة</a>
+</li>
+<li>
+<a  href="contact.html">اتصل بنا</a>
+</li>
+<li>
+<a href="donate.html">مركز الدفع</a>
+</li>
+<li>
+<a href="event-archive.html">مجتمع الأهل</a>
+</li>
                               </ul>
                            </aside>
                         </div>
@@ -110,10 +112,10 @@ const Footer = () => {
                      <div class="row align-items-center">
                         <div class="col-lg-6">
                            <div class="footer-newsletter">
-                              <h5>Subscribe us for more update & news !!</h5>
+                              <h5>اشترك معنا للحصول على المزيد من التحديثات والأخبار!!</h5>
                               <form class="newsletter">
-                                 <input type="email" name="email" placeholder="Enter Your Email"/>
-                                 <button type="submit" class="button-round-primary">Subscribe</button>
+                                 <input type="email" name="email" placeholder="أدخل بريدك الإلكتروني"/>
+                                 <button type="submit" class="button-round-primary">اشترك</button>
                               </form>
                            </div>
                         </div>
@@ -149,15 +151,15 @@ const Footer = () => {
                            </div>
                            <div class="footer-menu">
                               <ul>
-                                 <li>
-                                    <a href="policy.html">Privacy Policy</a>
-                                 </li>
-                                 <li>
-                                    <a href="policy.html">Term & Condition</a>
-                                 </li>
-                                 <li>
-                                    <a href="faq.html">FAQ</a>
-                                 </li>
+                              <li>
+                              <a href="policy.html">سياسة الخصوصية</a>
+                          </li>
+                          <li>
+                              <a href="policy.html">الشروط والأحكام</a>
+                          </li>
+                          <li>
+                              <a href="faq.html">الأسئلة الشائعة</a>
+                          </li>
                               </ul>
                            </div>
                         </div>
@@ -167,7 +169,7 @@ const Footer = () => {
             </div>
             <div class="bottom-footer">
                <div class="container">
-                  <div class="copy-right text-center">Copyright &copy; 2022 Environ. All rights reserved.</div>
+                  <div class="copy-right text-center">حقوق النشر © 2022 إنفايرن. جميع الحقوق محفوظة.</div>
                </div>
             </div>
          </footer>
