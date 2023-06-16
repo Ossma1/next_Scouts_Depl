@@ -1,6 +1,5 @@
 import React from 'react'
 import Search from './Search'
-import './../styles/Footer.module.css'
 const Footer = () => {
   return (
    <>
@@ -13,7 +12,7 @@ const Footer = () => {
                         <div class="col-lg-3 col-md-6">
                            <aside class="widget widget_text">
                               <div class="footer-logo">
-                      ظ
+
                                  <a href="index.html"><img src="assets/images/site-logo1.png" alt=""/></a>
                               </div>
                               <div class="textwidget widget-text">
@@ -23,72 +22,51 @@ const Footer = () => {
                         </div>
                         <div class="col-lg-3 col-md-6">
                            <aside class="widget widget_text">
-                           <h3>معلومات الاتصال</h3>
-                           <p>لا تتردد في التواصل والوصول إلينا!</p>
+                           <h3 class="widget-title">معلومات الاتصال</h3>
+                           <p>! لا تتردد في التواصل والوصول إلينا</p>
                               <div class="textwidget widget-text">
+                              
                                  <ul>
                                     <li>
-                                       <i aria-hidden="true" class="icon icon-map-marker1"></i>
-                                       3557 Derek Drive, Florida
-                                    </li>
+                                                        المعهد الموسيقي العربي باطمة شارع الشفشاوني عين السبع
+                                                        <i aria-hidden="true" class="icon icon-map-marker1"></i>
+                                       
+                                                        </li>
                                     <li>
-                                       <a href="tel:+1456657887">
+                                       <a href="tel:00212522938456">
+                                       00212522938456
                                           <i aria-hidden="true" class="icon icon-phone1"></i>
-                                          +1(456)657-887, +01 2599 12
                                        </a>
                                     </li>
                                     <li>
-                                       <a href="mailtop:info@domain.com">
-                                          <i aria-hidden="true" class="icon icon-envelope1"></i>
-                                          info@domain.com
+                                    <a href="mailto:scoutsmaroc@gmail.com">
+                                    <i  aria-hidden="true" class="icon icon-envelope1"></i>
+                                    scoutsmaroc@gmail.com
                                        </a>
                                     </li>
                                  </ul>
                               </div>
                            </aside>
                         </div>
-                        <div class="col-lg-3 col-md-6">
-                           <aside class="widget widget_map_hotspots">
-                              <h3 class="widget-title">موقع المكتب</h3>
-                              <div class="widget-map">
-                                 <img src="assets/images/map-img1.png" alt="" />
-                                 <div class="hotspot">
-                                    <div class="hotspot-one">
-                                       <a href="#">
-                                          <i class="fas fa-map-marker-alt"></i>
-                                       </a>
-                                       <span class="hotspot-content">Petersburg</span>
+                        <div  class="col-lg-3 col-md-6">
+                           <aside style={{position:"relative"}}  class="widget widget_text">
+                              <h3 class="widget-title">القائد العام</h3>
+                          <br></br>
+                              <div class="textwidget widget-text"><ul>
+                              <li>
+                              <i aria-hidden="true" class="fas fa-user"></i>
+
+
+                                       صلاح الدين مبروم                                    </li>
+                                    <li>
+                                       <i aria-hidden="true" class="icon icon-map-marker1"></i>
+                                       mabroum.salah@gmail.com                                    </li>
+                                    </ul>
                                     </div>
-                                    <div class="hotspot-two">
-                                       <a href="#">
-                                          <i class="fas fa-map-marker-alt"></i>
-                                       </a>
-                                       <span class="hotspot-content">Gerogiya</span>
-                                    </div>
-                                    <div class="hotspot-three">
-                                       <a href="#">
-                                          <i class="fas fa-map-marker-alt"></i>
-                                       </a>
-                                       <span class="hotspot-content">South wales</span>
-                                    </div>
-                                    <div class="hotspot-four">
-                                       <a href="#">
-                                          <i class="fas fa-map-marker-alt"></i>
-                                       </a>
-                                       <span class="hotspot-content">New Jersey</span>
-                                    </div>
-                                    <div class="hotspot-five">
-                                       <a href="#">
-                                          <i class="fas fa-map-marker-alt"></i>
-                                       </a>
-                                       <span class="hotspot-content">Haiti</span>
-                                    </div>
-                                 </div>
-                              </div>
                            </aside>
                         </div>
                         <div class="col-lg-3 col-md-6">
-                           <aside class="widget">
+                           <aside style={{position:"relative"}}  class="widget">
                               <h3 class="widget-title">دعم العملاء</h3>
                               <ul>
                               

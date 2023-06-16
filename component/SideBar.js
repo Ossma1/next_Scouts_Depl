@@ -15,13 +15,14 @@ const SideBar = () => {
                 <div class="header-contact-info">
                    <ul>
                       <li>
-                         <a style={{textDecoration:"none"}} href="tel:+01-977-2599-12" ><i class="fas fa-phone-alt"></i> +01 (977) 2599 12</a>
+                         <a style={{textDecoration:"none"}} href="tel:00212522938456" ><i class="fas fa-phone-alt"></i> 00212522938456</a>
                       </li>
                       <li>
-                         <a style={{textDecoration:"none"}} href="mailto:company@domain.com"><i class="fas fa-envelope"></i> company@domain.com</a>
+                         <a style={{textDecoration:"none"}} href="mailto:scoutsmaroc@gmail.com"><i class="fas fa-envelope"></i> scoutsmaroc@gmail.com</a>
                       </li>
                       <li>
-                         <i class="fas fa-map-marker-alt"></i> 3146 Koontz Lane, California
+                         <i class="fas fa-map-marker-alt"></i>                                                        المعهد الموسيقي العربي باطمة شارع الشفشاوني عين السبع
+
                       </li>
                    </ul>
                 </div>

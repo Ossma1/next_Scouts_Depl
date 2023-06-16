@@ -1730,6 +1730,12 @@ html {
 	text-align: center;
 	position: relative;
   }
+
+  .img1{
+	max-width: 48%;
+	margin-left: 25%;
+  }
+
   .video-button a i {
 	color: #ffffff;
   }
@@ -2877,25 +2883,32 @@ html {
   .section-about-content ul {
 	margin: 0;
 	padding: 0;
+	
   }
+  
+  .section-about-content {
+  text-align: right;
+}
   .section-about-content ul li {
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
+	
+	
+	
 	font-weight: 600;
 	list-style: none;
 	margin-bottom: 8px;
-	position: relative;
+	text-align: right;
   }
-  .section-about-content ul li:before {
+  .section-about-content ul li:after {
 	color: #FFDA0F;
 	content: "\f00c";
 	font-family: "Font Awesome 5 Free";
 	font-weight: 900;
 	font-size: 14px;
-	margin-right: 10px;
+	margin-top: 4px;
+	margin-left: 10px;
   }
   .section-about-content p {
 	margin-bottom: 35px;
@@ -3265,7 +3278,7 @@ html {
   >>> Home gallery section  
   ----------------------------------------------------------------*/
   .gallery-section {
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 	padding-top: 100px;
   }
   @media screen and (max-width: 575px) {
@@ -3282,7 +3295,7 @@ html {
   .gallery-inner:before, .gallery-inner:after {
 	content: "";
 	display: block;
-	clear: both;
+	clear: both; /* av mettre de eliminer les floet liikaynin wast had div clear mnfogha wmn wrraha*/
   }
   .gallery-inner .single-gallery {
 	width: 25%;
@@ -3496,6 +3509,16 @@ html {
 	font-size: 30px;
 	line-height: 1.1;
 	font-weight: 700;
+  }
+  .counter-wrap .counter-item:has(.sous) {
+
+		
+	border-right: white  1px;
+	
+	
+  }
+  .counter-wrap .sous {
+  font-size: 20px;
   }
   .counter-wrap .counter-text {
 	color: #ffffff;
@@ -3802,6 +3825,7 @@ html {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 600;
 	margin-bottom: 20px;
+	text-align: right;
   }
   .site-footer .footer-newsletter input[type=email] {
 	color: #ffffff;
@@ -3882,20 +3906,44 @@ html {
 	font-weight: 500;
 	line-height: 1.1;
 	margin-bottom: 30px;
+	
+	text-align: right;
+  
   }
   .footer-primary .widget .widget-title:after {
 	background-color: #FFDA0F;
+	margin-left: 80%;
 	content: "";
 	display: table;
 	height: 2px;
 	width: 63px;
 	margin-top: 14px;
   }
+  @media (max-width: 700px) {
+	.footer-primary .widget .widget-title {
+		margin-left: 40%; /* Appliquer la marge de 15px à gauche */
+	}
+  }
+  @media (max-width:1100px)and (min-width:900px) {
+	.footer-primary .widget .widget-title {
+		margin-left: -40%; /* Appliquer la marge de 15px à gauche */
+	}
+  }
+  @media (max-width:900px)and (min-width:700px) {
+	.footer-primary .widget .widget-title {
+		margin-left: 30%; /* Appliquer la marge de 15px à gauche */
+	}
+  }
   .footer-primary .widget ul li {
 	margin-bottom: 10px;
+	text-align: right;
   }
   .footer-primary .widget ul li a {
 	color: #ffffff;
+  }
+  .footer-primary .widget p{
+	text-align: right;
+  
   }
   .footer-primary .widget ul li a:hover, .footer-primary .widget ul li a:focus, .footer-primary .widget ul li a:active {
 	color: #A18A10;
@@ -4325,10 +4373,25 @@ html {
 	-moz-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	margin-left: -8px;
-	margin-right: -8px;
+	margin-left: 20%;
+	
 	padding-bottom: 30px;
   }
+  #iconbox-container-bg2 {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-left: 10%;
+	
+	padding-bottom: 30px;
+  }
+  
   
   .iconbox-item-bg {
 	padding-left: 8px;
@@ -4364,7 +4427,12 @@ html {
   }
   @media screen and (min-width: 992px) {
 	.iconbox-item-bg {
-	  width: 20%;
+	  width: 25%;
+	}
+  }
+  @media screen and (min-width: 992px) {
+	.iconbox-item-bg1 {
+	  width: 18%;
 	}
   }
   @media screen and (max-width: 991px) {
@@ -4404,8 +4472,21 @@ html {
 	background-color: #0E3500;
 	padding: 50px 55px;
 	position: relative;
+	
 	z-index: 2;
   }
+  .loading-spinner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
   .about-video-wrap .about-video-content:before {
 	content: "";
 	border: 2px solid rgba(255, 255, 255, 0.24);
@@ -7479,7 +7560,7 @@ html {
   }
   .widget.widget_text ul li {
 	margin-bottom: 10px;
-	padding-left: 25px;
+	padding-right: 25px;
 	position: relative;
   }
   .widget.widget_text ul li:last-child {
@@ -7488,7 +7569,7 @@ html {
   .widget.widget_text ul li i {
 	color: #FFDA0F;
 	position: absolute;
-	left: 0;
+	right: 0;
 	top: 4px;
   }
   .widget.widget_newslatter .newslatter-form {
