@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
 import React, { useState } from "react";
 import YouTube from "react-youtube";
 
@@ -50,9 +49,10 @@ export default function Home() {
         {/* home banner section html start */}
         <section
           class="home-banner"
-          style={{ backgroundImage: "url(/assets/images/banner-img.jpg)" }}
+          style={{ backgroundImage: "url(assets/images/banner-img.jpg)" }}
         >
           <div class="container">
+         
             <div class="row">
               <div class="col-lg-8 offset-lg-2">
                 <div class="banner-content text-center">
@@ -848,57 +848,7 @@ export default function Home() {
           </div>
         </section>
         {/* home client section html start */}
-        <section class="client-section">
-          <div class="container">
-            <h5 class="divider-title">
-              <span>شركاء و رعاة</span>
-            </h5>
-            <div class="client-wrap client-slider text-center">
-              <div class="client-item">
-                <figure>
-                  <img
-                    width={180}
-                    src="https://mlvechjz7dqn.i.optimole.com/w:248/h:130/q:mauto/f:avif/https://fncv.ma/wp-content/uploads/2022/07/Logo2.png"
-                    alt=""
-                  />
-                </figure>
-              </div>
-              <div class="client-item">
-                <figure>
-                  <img
-                    width={100}
-                    src="https://scontent.fcmn5-1.fna.fbcdn.net/v/t39.30808-6/347238583_221720780633390_7508097051874561034_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHL4d-M58cAk6jXQQETO9tFrtEA8jytGgau0QDyPK0aBrpuMX4izmUJZAetWaGxlecHiLCwWcavQ5DzvANN_Bv6&_nc_ohc=NZfNGHX7lzEAX9RedKS&_nc_zt=23&_nc_ht=scontent.fcmn5-1.fna&oh=00_AfD6fjX5RertB9b5_Yeiq8KFkByXcLUcpotjtrOPHIY7lg&oe=649011A2"
-                    alt=""
-                  />
-                </figure>
-              </div>
-              <div class="client-item">
-                <figure>
-                  <img
-                    width={100}
-                    src="https://scontent.fcmn5-1.fna.fbcdn.net/v/t31.18172-8/11062319_798341450260881_411039177723243580_o.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEeQUYok5XCLk3ioBR68wntXtCVchbN0nNe0JVyFs3Sc5iQTN3Hzw_dOHncLI66sA4cmxdSDgTRIe38jcdcqqqB&_nc_ohc=HOnhzDISWrEAX85JUlv&_nc_ht=scontent.fcmn5-1.fna&oh=00_AfAF7USSoVDd36-7HuWPCNWX5R76D2eRXdVrGwbRDAUFMw&oe=64B2467B"
-                    alt=""
-                  />
-                </figure>
-              </div>
-              <div class="client-item">
-                <figure>
-                  <img src="/assets/images/logo4.png" alt="" />
-                </figure>
-              </div>
-              <div class="client-item">
-                <figure>
-                  <img src="/assets/images/logo5.png" alt="" />
-                </figure>
-              </div>
-              <div class="client-item">
-                <figure>
-                  <img src="/assets/images/logo2.png" alt="" />
-                </figure>
-              </div>
-            </div>
-          </div>
-        </section>
+     
         {/* home fact section html start */}
         <section
           class="fact-section"

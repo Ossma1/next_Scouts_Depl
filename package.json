@@ -13,7 +13,9 @@
     "next": "13.4.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-facebook": "^9.0.12",
     "react-spinners": "^0.13.8",
-    "react-youtube": "^10.1.0"
+    "react-youtube": "^10.1.0",
+    "swiper": "^9.4.1"
   }
 }

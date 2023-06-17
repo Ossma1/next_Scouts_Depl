@@ -34,20 +34,10 @@ export default function App({ Component, pageProps }) {
     <link rel="stylesheet" type="text/css" href="assets/vendors/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="assets/vendors/slick/slick-theme.css"/>
   { /* <!-- google fonts -->*/}
+
+  <link href="assets/css/index-9ce9c63f.css" rel="stylesheet"></link>
     <title>Environ | Environment Charity HTML5 Template</title>
-    <script src="assets/vendors/jquery/jquery.js"></script>
-    <script src="assets/vendors/waypoint/jquery.waypoints.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/vendors/progressbar-fill-visible/js/progressBar.min.js"></script>
-    <script src="assets/vendors/jquery-ui/jquery-ui.min.js"></script>
-    <script src="assets/vendors/countdown-date-loop-counter/loopcounter.js"></script>
-    <script src="assets/vendors/counterup/jquery.counterup.js"></script>
-    <script src="assets/vendors/modal-video/jquery-modal-video.min.js"></script>
-    <script src="assets/vendors/masonry/masonry.pkgd.min.js"></script>
-    <script src="assets/vendors/fancybox/dist/jquery.fancybox.min.js"></script>
-    <script src="assets/vendors/slick/slick.min.js"></script>
-    <script src="assets/vendors/slick-nav/jquery.slicknav.js"></script>
-    <script src="assets/js/custom.js"></script>
+    
     </Head>
     <style jsx global>{`
   a {
