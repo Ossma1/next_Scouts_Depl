@@ -2,7 +2,6 @@ import Footer from '@/component/Footer'
 import Search from '@/component/Search'
 import SideBar from '@/component/SideBar'
 import '@/styles/globals.css'
-import 'bootstrap/dist/css/bootstrap.css';
 import Head from 'next/head';
 
 
@@ -27,7 +26,6 @@ export default function App({ Component, pageProps }) {
   { /*   <!-- jquery-ui css -->*/}
     <link rel="stylesheet" type="text/css" href="assets/vendors/jquery-ui/jquery-ui.min.css"/>
   { /*  <!-- modal video css -->*/}
-    <link rel="stylesheet" type="text/css" href="assets/vendors/modal-video/modal-video.min.css"/>
   { /*   <!-- light box css --> */}
     <link rel="stylesheet" type="text/css" href="assets/vendors/fancybox/dist/jquery.fancybox.min.css"/>
   { /*   <!-- slick slider css --> */}

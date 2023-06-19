@@ -24,7 +24,7 @@ const about = () => {
           >
             <div class="container">
               <div class="inner-banner-content">
-                <h1 class="inner-title">من نحن</h1>
+                <h1 class="inner-title">عن الجمعية</h1>
               </div>
             </div>
           </div>
@@ -56,7 +56,7 @@ const about = () => {
                         src="https://scontent.frba3-2.fna.fbcdn.net/v/t39.30808-6/347142254_924476702146153_6628312326437862807_n.jpg?stp=dst-jpg_p960x960&_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=tdTponUaMVsAX9WBnJ-&_nc_ht=scontent.frba3-2.fna&oh=00_AfDmZszjUhovKaoYAI1mDy2fIrIfmuqXewu_7u4t3fzD7Q&oe=64915770"
                         alt=""
                       />
-                <div class="overlay"></div>
+                <div style={{backgroundColor:"transparent"}} class="overlay"></div>
               </div>
             </div>
             <div class="section-head">
@@ -170,41 +170,8 @@ const about = () => {
             <div style={{color: "rgba(184, 180, 180, 0.29)"}} class="back-title">قيم الجمعية</div>
           </div>
               <Swiper  navigation={true} modules={[Navigation]} className="mySwiper">
-                <SwiperSlide>  <h2 style={{ textAlign: "center" }} class="section-title">
-                <span class="primary-color">
-                  قيم أساسية
-                  <svg
-                    class="title-shape"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 500 150"
-                    preserveAspectRatio="none"
-                  >
-                    <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"></path>
-                  </svg>
-                </span>
-              </h2>
-              <div class="iconbox-container-bg">
-                <div class="iconbox-item-bg">
-                  <div class="iconbox-content-bg">
-                    <i aria-hidden="true" class="fas fa-smog"></i>
-                    <h4>الجودة</h4>
-                  </div>
-                </div>
-                <div class="iconbox-item-bg">
-                  <div class="iconbox-content-bg">
-                    <i aria-hidden="true" class="icon icon-Leaf"></i>
-                    <h4>الشمولية</h4>
-                  </div>
-                </div>
-                <div class="iconbox-item-bg">
-                  <div class="iconbox-content-bg">
-                    <i aria-hidden="true" class="fas fa-fill-drip"></i>
-                    <h4>التخصص</h4>
-                  </div>
-                </div>
-              </div></SwiperSlide>
-                <SwiperSlide> <h2 style={{ textAlign: "center" }} class="section-title">
-                <span class="primary-color">
+              ؤ<SwiperSlide> <h2 style={{ textAlign: "center" }} class="section-title">
+              <span class="primary-color">
                   قيم بنائية
                   <svg
                     class="title-shape"
@@ -249,6 +216,40 @@ const about = () => {
                   </div>
                 </div>
               </div></SwiperSlide>
+              <SwiperSlide>  <h2 style={{ textAlign: "center" }} class="section-title">
+              <span class="primary-color">
+                قيم أساسية
+                <svg
+                  class="title-shape"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 500 150"
+                  preserveAspectRatio="none"
+                >
+                  <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"></path>
+                </svg>
+              </span>
+            </h2>
+            <div class="iconbox-container-bg">
+              <div class="iconbox-item-bg">
+                <div class="iconbox-content-bg">
+                  <i aria-hidden="true" class="fas fa-smog"></i>
+                  <h4>الجودة</h4>
+                </div>
+              </div>
+              <div class="iconbox-item-bg">
+                <div class="iconbox-content-bg">
+                  <i aria-hidden="true" class="icon icon-Leaf"></i>
+                  <h4>الشمولية</h4>
+                </div>
+              </div>
+              <div class="iconbox-item-bg">
+                <div class="iconbox-content-bg">
+                  <i aria-hidden="true" class="fas fa-fill-drip"></i>
+                  <h4>التخصص</h4>
+                </div>
+              </div>
+            </div></SwiperSlide>
+              
                 <SwiperSlide> <h2 style={{ textAlign: "center" }} class="section-title">
                 <span class="primary-color">
                   قيم مميزة
@@ -293,13 +294,13 @@ const about = () => {
             
           </div>
           <br></br>
-          <div class="iconbox-container justify-content-around d-flex flex-wrap">
+          <div class="iconbox-container justify-content-evenly d-flex flex-wrap">
             <div
               style={{ marginTop: "2%", marginBottom: "2%" }}
               class=" iconbox-item-4 d-flex flex-wrap"
             >
               <div class="iconbox-border   ">
-                <div>
+                <div class="d-flex">
                   <h4 style={{ display: " inline-block", textAlign: "right" }}>
                     شواهد متعددة تتوفر عليها الجمعية
                   </h4>
@@ -478,7 +479,7 @@ const about = () => {
                         نحن نسعى لأن نكون مؤسسة رائدة في العمل الكشفي وطنيا و
                         دوليا ينظر إليها الجميع أفرادا و مؤسسات باعتبارها
                         النموذج الأمثل و المرجع في صناعة الفرد الصالح و المصلح و
-                        خصوصا الناشئة وفق مقوماتنا <br></br>{" "}
+                        خصوصا اإليناشئة وفق مقوماتنا <br></br>{" "}
                         <span class="primary-color">
                           الحضارية
                           <svg

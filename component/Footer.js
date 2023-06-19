@@ -9,7 +9,7 @@ const Footer = () => {
                <div class="container">
                   <div class="upper-footer">
                      <div class="row">
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-4 col-md-6">
                            <aside class="widget widget_text">
                               <div class="footer-logo">
 
@@ -48,39 +48,21 @@ const Footer = () => {
                               </div>
                            </aside>
                         </div>
-                        <div  class="col-lg-3 col-md-6">
-                           <aside style={{position:"relative"}}  class="widget widget_text">
-                              <h3 class="widget-title">القائد العام</h3>
-                          <br></br>
-                              <div class="textwidget widget-text"><ul>
-                              <li>
-                              <i aria-hidden="true" class="fas fa-user"></i>
 
-
-                                       صلاح الدين مبروم                                    </li>
-                                    <li>
-                                       <i aria-hidden="true" class="icon icon-map-marker1"></i>
-                                       mabroum.salah@gmail.com                                    </li>
-                                    </ul>
-                                    </div>
-                           </aside>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-4">
                            <aside style={{position:"relative"}}  class="widget">
                               <h3 class="widget-title">دعم العملاء</h3>
                               <ul>
                               
 <li>
-<a href="contact.html">مركز المساعدة</a>
+<a href="/contact">مركز المساعدة</a>
 </li>
 <li>
-<a  href="contact.html">اتصل بنا</a>
+<a  href="/contact">راسلنا</a>
 </li>
+
 <li>
-<a href="donate.html">مركز الدفع</a>
-</li>
-<li>
-<a href="event-archive.html">مجتمع الأهل</a>
+<a href="/event">مقترحات</a>
 </li>
                               </ul>
                            </aside>
@@ -93,7 +75,7 @@ const Footer = () => {
                            <div class="footer-newsletter">
                               <h5>اشترك معنا للحصول على المزيد من التحديثات والأخبار!!</h5>
                               <form class="newsletter">
-                                 <input type="email" name="email" placeholder="أدخل بريدك الإلكتروني"/>
+                                 <input style={{paddingRight:"88px"}} type="email" name="email" placeholder="أدخل بريدك الإلكتروني"/>
                                  <button type="submit" class="button-round-primary">اشترك</button>
                               </form>
                            </div>
@@ -102,27 +84,23 @@ const Footer = () => {
                            <div class="social-links">
                               <ul>
                                  <li>
-                                    <a href="https://www.facebook.com/" target="_blank">
+                                    <a href="https://www.facebook.com/scouts.maroc/" target="_blank">
                                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
                                     </a>
                                  </li>
+                                
                                  <li>
-                                    <a href="https://www.twitter.com/" target="_blank">
-                                       <i class="fab fa-twitter" aria-hidden="true"></i>
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="https://www.youtube.com/" target="_blank">
+                                    <a href="https://www.youtube.com/@ScoutsMaroc" target="_blank">
                                        <i class="fab fa-youtube" aria-hidden="true"></i>
                                     </a>
                                  </li>
                                  <li>
-                                    <a href="https://www.instagram.com/" target="_blank">
+                                    <a href="https://www.instagram.com/scoutsmaroc/" target="_blank">
                                        <i class="fab fa-instagram" aria-hidden="true"></i>
                                     </a>
                                  </li>
                                  <li>
-                                    <a href="https://www.linkedin.com/" target="_blank">
+                                    <a href="https://www.linkedin.com/company/scoutsmaroc/" target="_blank">
                                        <i class="fab fa-linkedin" aria-hidden="true"></i>
                                     </a>
                                  </li>
@@ -151,6 +129,7 @@ const Footer = () => {
                   <div class="copy-right text-center">حقوق النشر © 2022 إنفايرن. جميع الحقوق محفوظة.</div>
                </div>
             </div>
+            
          </footer>
          <a id="backTotop" href="#" class="to-top-icon">
           <i class="fas fa-chevron-up"></i>

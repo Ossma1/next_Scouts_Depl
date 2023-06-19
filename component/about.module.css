@@ -7,3 +7,8 @@
     margin: 0 40px;
     background-color: blue;
 }
+.container{
+    max-width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
