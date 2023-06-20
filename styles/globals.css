@@ -264,6 +264,7 @@ html {
 	}
   }
   
+
   p {
 	line-height: 1.6;
 	margin: 0 0 15px;
@@ -429,6 +430,17 @@ html {
   }
   
   @media screen and (max-width: 767px) {
+	#content2{
+		margin-left: 0%;
+		
+		margin-right: 0%;
+	}
+	#bead2{
+		top:5%;
+		margin-left: 3%;
+		
+	}
+	
 	h1 {
 	  font-size: 36px;
 	}
@@ -8361,6 +8373,7 @@ min-height: 200px;
 	width: 5rem;
    
 }
+
 .section1:nth-child(odd) .content1{
 	margin-left: 51%;
 }

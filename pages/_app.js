@@ -1,5 +1,4 @@
 import Footer from '@/component/Footer'
-import Search from '@/component/Search'
 import SideBar from '@/component/SideBar'
 import '@/styles/globals.css'
 import Head from 'next/head';

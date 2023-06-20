@@ -1,5 +1,4 @@
 import React from 'react'
-import Search from './Search'
 const Footer = () => {
   return (
    <>
@@ -135,7 +134,7 @@ const Footer = () => {
           <i class="fas fa-chevron-up"></i>
           </a>
        {/* custom search field html*/ }
-          <Search />
+
           </>
   )
 }

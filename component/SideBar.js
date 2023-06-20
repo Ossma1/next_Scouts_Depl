@@ -100,11 +100,7 @@ const SideBar = () => {
                     </li>
                   </ul>
                 </div>
-                <div class="header-search-icon">
-                  <button class="search-icon">
-                    <i class="fas fa-search"></i>
-                  </button>
-                </div>
+            
               </div>
             </div>
           </div>
@@ -203,14 +199,39 @@ const SideBar = () => {
               style={clicke ? {display: "none"}: { display: "block" }}
             >
               <ul>
-                <li class="current-menu-item">
-                
-              <Link style={{ textDecoration: "none" }} role="menuitem" href="/contact">
-              راسلنا
-            </Link></li>
+              <li class="current-menu-item">
+            
+              <Link role="menuitem" href="/">
+              الرئيسية</Link>
+                  </li>
+                  <li class="current-menu-item">
+            
+            <Link role="menuitem" href="/about">
+            عن الجمعية</Link>
+                </li>
+                <li className={`menu-item-has-children slicknav_parent slicknav_collapsed ${clicke2 ?"slicknav_open":"slicknav_collapsed"}`}><span class="slicknav_parent-link slicknav_row">
+                <a href="#">برامج</a>
+                <a href="#" role="menuitem" aria-haspopup="true" tabindex="-1"  onClick={() => chnagerclick2()} class="slicknav_item"  style={{outline: "none"}}><span class="slicknav_arrow"><i class= {clicke2 ?"fas fa-plus":"fas fa-minus"}></i></span></a></span><ul role="menu" class="slicknav_hidden" aria-hidden="true" style={clicke2 ? {display: "none"}: { display: "block" }}>
+                   <li>
+                      <Link href="/program_educatif" role="menuitem" tabindex="-1">مناهج تربوية</Link>
+                   </li>
+                   <li>
+                   <Link href="/program_leader" role="menuitem" tabindex="-1">تنمية القيادات</Link>
+                 </li>
+                 <li>
+                   <Link href="program_camps" role="menuitem" tabindex="-1">مخيمات و عطل</Link>
+                 </li>
+                 <li>
+                   <Link href="/program_loisir" role="menuitem" tabindex="-1">تربية وترفيه</Link>
+                 </li>
+                 <li>
+                   <Link href="/program_seance" role="menuitem" tabindex="-1">برامج حصصية</Link>
+                 </li>
+                   </ul>
+</li>
             <li class="current-menu-item">
             
-            <Link role="menuitem" href="/etapes">مسار الجمعية</Link>
+            <a role="menuitem" href="/etapes">مسار الجمعية</a>
                 </li>
                 <li class="current-menu-item">
             
@@ -218,38 +239,15 @@ const SideBar = () => {
             المراحل العمرية</Link>
                 </li>
 
-                  <li className={`menu-item-has-children slicknav_parent slicknav_collapsed ${clicke2 ?"slicknav_open":"slicknav_collapsed"}`}><span class="slicknav_parent-link slicknav_row">
-                                 <a href="#">برامج</a>
-                                 <a href="#" role="menuitem" aria-haspopup="true" tabindex="-1"  onClick={() => chnagerclick2()} class="slicknav_item"  style={{outline: "none"}}><span class="slicknav_arrow"><i class= {clicke2 ?"fas fa-plus":"fas fa-minus"}></i></span></a></span><ul role="menu" class="slicknav_hidden" aria-hidden="true" style={clicke2 ? {display: "none"}: { display: "block" }}>
-                                    <li>
-                                       <Link href="/program_educatif" role="menuitem" tabindex="-1">مناهج تربوية</Link>
-                                    </li>
-                                    <li>
-                                    <Link href="/program_leader" role="menuitem" tabindex="-1">تنمية القيادات</Link>
-                                  </li>
-                                  <li>
-                                    <Link href="program_camps" role="menuitem" tabindex="-1">مخيمات و عطل</Link>
-                                  </li>
-                                  <li>
-                                    <Link href="/program_loisir" role="menuitem" tabindex="-1">تربية وترفيه</Link>
-                                  </li>
-                                  <li>
-                                    <Link href="/program_seance" role="menuitem" tabindex="-1">برامج حصصية</Link>
-                                  </li>
-                                    </ul>
-                </li>
-
-                <li class="current-menu-item">
-            
-            <Link role="menuitem" href="/about">
-            عن الجمعية</Link>
-                </li>
-                <li class="current-menu-item">
-            
-            <Link role="menuitem" href="/">
-            الرئيسية</Link>
-                </li>
                
+
+                
+                
+                <li class="current-menu-item">
+                
+              <Link style={{ textDecoration: "none" }} role="menuitem" href="/contact">
+              راسلنا
+            </Link></li>
               </ul>
             </nav>
           </div>
