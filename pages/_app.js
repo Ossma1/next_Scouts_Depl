@@ -12,8 +12,8 @@ export default function App({ Component, pageProps }) {
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"/>
-    
-    <link rel="icon" type="image/png" href="assets/images/favicon.png"/>
+
+    <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEaXZsXFTn_rSXcu52AXtmQAmuwzl8lSAibLRKCrx1KCp1JuOGDWu_dhILLxfqZQg95AI&usqp=CAU"/>
   {/* <!-- Bootstrap CSS -->*/}
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" media="all"/>
     {/*<!-- Fonts Awesome CSS for media icons  -->*/}
@@ -33,7 +33,7 @@ export default function App({ Component, pageProps }) {
   { /* <!-- google fonts -->*/}
 
   <link href="assets/css/index-9ce9c63f.css" rel="stylesheet"></link>
-    <title>Environ | Environment Charity HTML5 Template</title>
+    <title>scouts maroc</title>
     
     </Head>
     <style jsx global>{`

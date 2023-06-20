@@ -6,6 +6,7 @@ import YouTube from "react-youtube";
 
 import { BounceLoader
  } from 'react-spinners';
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -82,21 +83,21 @@ export default function Home() {
                     </p>
                   </div>
                   <div class="banner-button">
-                    <a
+                    <Link
                       style={{ textDecoration: "none", fontSize: "16px" }}
-                      href="about.html"
+                      href="/about"
                       class="button-round-primary"
                     >
                       تعرف أكثر
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       style={{ textDecoration: "none", fontSize: "16px" }}
-                      href="donate.html"
+                      href="/contact"
                       class="button-round-white"
                     >
                       {" "}
                       كن متطوعًا
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -187,13 +188,13 @@ export default function Home() {
                     <div class="service-content">
                       <h4>مناهج تربوية</h4>
                       <p>فرصة فريدة لتعزيز الهوية الوطنية والقيم الأخلاقية</p>
-                      <a
+                      <Link
                         style={{ textDecoration: "none" }}
-                        href="donate.html"
+                        href="/program_educatif"
                         class="button-round-primary"
                       >
                         تعرف أكثر
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -209,13 +210,13 @@ export default function Home() {
                     <div class="service-content">
                       <h4>تنمية القيادات</h4>
                       <p>إعداد خلف صالح في مستوى تحديات الواقع والمجتمع</p>
-                      <a
+                      <Link
                         style={{ textDecoration: "none" }}
-                        href="volunteer.html"
+                        href="/program_leader"
                         class="button-round-primary"
                       >
                         تعرف أكثر
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -233,13 +234,13 @@ export default function Home() {
                       <p>
                         تشكيل وعي الطفل بخصوصيات محيطه وقدرته على الاندماج فيه
                       </p>
-                      <a
+                      <Link
                         style={{ textDecoration: "none" }}
-                        href="donate.html"
+                        href="/program_camps"
                         class="button-round-primary"
                       >
                         تعرف أكثر
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -258,13 +259,13 @@ export default function Home() {
                      بناء شخصية الإنسان وتحقيق
                         التوازن الذاتي في حياته
                       </p>
-                      <a
+                      <Link
                         style={{ textDecoration: "none" }}
-                        href="volunteer.html"
+                        href="/program_loisir"
                         class="button-round-primary"
                       >
                         تعرف أكثر
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -551,9 +552,9 @@ export default function Home() {
                         placeholder="ادخل الكود*"
                       />
                     </div>
-                    <div class="col-12">
+                    <div  class="text-right col-12">
                       <button type="submit" class="button-round-secondary">
-                        انضم اليوم
+                        انضم الآن
                       </button>
                     </div>
                   </form>
@@ -1019,7 +1020,7 @@ export default function Home() {
                       <span class="cat-meta">
                         <a
                           style={{ textDecoration: "none" }}
-                          href="blog-archive.html"
+                          href="/etapes"
                         >
                         التفاصيل
                         </a>
@@ -1029,7 +1030,7 @@ export default function Home() {
                       <h4>
                         <a
                           style={{ textDecoration: "none" }}
-                          href="blog-single.html"
+                          href="/etapes"
                         >
                         المرحلة الثالثة: مرحلة الارتقاء من سنة 2009 إلى سنة 2013
                         </a>
@@ -1040,7 +1041,7 @@ export default function Home() {
                       <span class="comments-link">
                         <a
                           style={{ textDecoration: "none" }}
-                          href="blog-single.html"
+                          href="/etapes"
                         >
                           No Comments
                         </a>
@@ -1053,14 +1054,14 @@ export default function Home() {
                     <figure class="feature-image">
                       <a
                         style={{ textDecoration: "none" }}
-                        href="blog-single.html"
+                        href="/etapes"
                       >
                         <img class="img1" src="https://cdn-icons-png.flaticon.com/512/686/686921.png" alt="" />
                       </a>
                       <span class="cat-meta">
                         <a
                           style={{ textDecoration: "none" }}
-                          href="blog-archive.html"
+                          href="/etapes"
                         >
                         التفاصيل
                         </a>
@@ -1069,8 +1070,10 @@ export default function Home() {
                     <div style={{textAlign:"right"}}  class="entry-content">
                       <h4>
                         <a
+                        href="/etapes"
+
                           style={{ textDecoration: "none" }}
-                          href="blog-single.html"
+                         
                         >
                         المرحلة الثانية: مرحلة التوسع والبناء ما بين سنتي 2005 و 2009
                         </a>
@@ -1081,7 +1084,7 @@ export default function Home() {
                       <span class="comments-link">
                         <a
                           style={{ textDecoration: "none" }}
-                          href="blog-single.html"
+                          href="/etapes"
                         >
                           No Comments
                         </a>
@@ -1094,14 +1097,14 @@ export default function Home() {
                     <figure  class="feature-image">
                       <a
                         style={{ textDecoration: "none" }}
-                        href="blog-single.html"
+                        href="/etapes"
                       >
                       <img class="img1" src="https://static.thenounproject.com/png/4133650-200.png" alt="" />
                         </a>
                      <span class="cat-meta">
                         <a
                           style={{ textDecoration: "none" }}
-                          href="blog-archive.html"
+                          href="/etapes"
                         >
                           التفاصيل
                         </a>
@@ -1110,7 +1113,8 @@ export default function Home() {
                     <div style={{textAlign:"right"}} class="entry-content">
                       <h4>
                         <a
-                          href="blog-single.html"
+                        href="/etapes"
+
                         >
                         المرحلة الأولى: مرحلة التأسيس من سنة 2000 إلى سنة 2005
                         </a>
@@ -1121,7 +1125,7 @@ export default function Home() {
                       <span class="comments-link">
                         <a
                           style={{ textDecoration: "none" }}
-                          href="blog-single.html"
+                          href="/etapes"
                         >
                           No Comments
                         </a>
@@ -1143,9 +1147,11 @@ export default function Home() {
               <div class="col-lg-8">
                 <div class="callback-content">
                   <div class="section-head">
-                    <div class="back-title">كن متطوعًا</div>
-                    <h1 class="section-title">
-                      {" "}
+                    <div class="back-title text-center">كن متطوعًا</div>
+                    <h1 class="text-center section-title">
+                    لنغير العالم، انضم إلينا 
+                    <br></br>
+                    {" "}
                       <span class="primary-color">
                         {" "}
                         !متطوعًا
@@ -1158,20 +1164,21 @@ export default function Home() {
                           <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"></path>
                         </svg>
                       </span>{" "}
-                      لنغير العالم، انضم إلينا الآن وكن
+                      الآن وكن
+
                     </h1>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4">
-                <div class="button-right">
-                  <a
+              <div class=" col-lg-4">
+                <div class="text-center button-right">
+                  <Link
                     style={{ textDecoration: "none", fontSize: "16px" }}
-                    href="volunteer.html"
+                    href="/contact"
                     class="button-round-primary"
                   >
                     كن متطوعًا
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

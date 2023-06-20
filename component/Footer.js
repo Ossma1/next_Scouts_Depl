@@ -12,7 +12,7 @@ const Footer = () => {
                            <aside class="widget widget_text">
                               <div  class="text-center footer-logo">
 
-                                 <a href="index.html"><img width={"100px"}   src="https://www.edulink.ma/wp-content/uploads/scouts2.jpg" alt=""/></a>
+                                 <a href="/"><img width={"100px"}   src="https://www.edulink.ma/wp-content/uploads/scouts2.jpg" alt=""/></a>
                               </div>
                               <div class="textwidget text-center widget-text">
                               مؤسسة رائدة في العمل الكشفي وطنيا و دوليا ينظر إليها الجميع أفرادا و مؤسسات باعتبارها النموذج الأمثل و المرجع في صناعة الفرد الصالح 

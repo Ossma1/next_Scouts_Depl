@@ -170,7 +170,7 @@ const about = () => {
             <div style={{color: "rgba(184, 180, 180, 0.29)"}} class="back-title">قيم الجمعية</div>
           </div>
               <Swiper  navigation={true} modules={[Navigation]} className="mySwiper">
-              ؤ<SwiperSlide> <h2 style={{ textAlign: "center" }} class="section-title">
+              ؤ<SwiperSlide style={{backgroundColor:"transparent"}}> <h2 style={{ textAlign: "center" }} class="section-title">
               <span class="primary-color">
                   قيم بنائية
                   <svg
@@ -216,7 +216,7 @@ const about = () => {
                   </div>
                 </div>
               </div></SwiperSlide>
-              <SwiperSlide>  <h2 style={{ textAlign: "center" }} class="section-title">
+              <SwiperSlide style={{backgroundColor:"transparent"}}>  <h2 style={{ textAlign: "center" }} class="section-title">
               <span class="primary-color">
                 قيم أساسية
                 <svg
@@ -250,7 +250,7 @@ const about = () => {
               </div>
             </div></SwiperSlide>
               
-                <SwiperSlide> <h2 style={{ textAlign: "center" }} class="section-title">
+                <SwiperSlide style={{backgroundColor:"transparent"}}> <h2 style={{ textAlign: "center" }} class="section-title">
                 <span class="primary-color">
                   قيم مميزة
                   <svg
@@ -365,7 +365,7 @@ const about = () => {
                       ></textarea>
                     </p>
                     <p>
-                      <input type="submit" name="submit" value="ارسال" />
+                      <input className="text-center" type="submit" name="submit" value="ارسال" />
                     </p>
                   </form>
                 </div>
@@ -494,8 +494,8 @@ const about = () => {
                       </h2>
                     </div>
                     <div class="button-wrap">
-                      <a href="volunteer.html" class="button-round-primary">
-                        انضم إلينا لآن
+                      <a href="/contact" class="button-round-primary">
+                        انضم  لآن
                       </a>
                     </div>
                   </div>
