@@ -111,14 +111,8 @@ const SideBar = () => {
         </div>
         <div class="bottom-header">
           <div class="container">
-            <div class="hgroup-wrap d-flex justify-content-between align-items-center">
-              <div class="site-identity">
-                <h1 class="site-title">
-                  <Link style={{ textDecoration: "none" }} href="/">
-                    <img src="/assets/images/site-logo.png" alt="logo" />
-                  </Link>
-                </h1>
-              </div>
+            <div class="hgroup-wrap d-flex justify-content-end align-items-center">
+           
               <div class="main-navigation">
                 
                 <nav
@@ -132,7 +126,7 @@ const SideBar = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/etapes">مسار الجمعية</Link>
+                      <a  href="/etapes">مسار الجمعية</a>
                     </li>
                     <li>
                       <Link style={{ textDecoration: "none" }} href="/ages">
@@ -174,6 +168,13 @@ const SideBar = () => {
                   </ul>
                 </nav>
               </div>
+              <div class="site-identity">
+              <h1 class="site-title">
+                <Link style={{textAlign: "center",textDecoration: "none" }} href="/">
+                  <img width={"25%"} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEaXZsXFTn_rSXcu52AXtmQAmuwzl8lSAibLRKCrx1KCp1JuOGDWu_dhILLxfqZQg95AI&usqp=CAU" alt="logo" />
+                </Link>
+              </h1>
+            </div>
             </div>
           </div>
         </div>

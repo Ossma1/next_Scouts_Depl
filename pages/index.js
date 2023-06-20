@@ -49,7 +49,7 @@ export default function Home() {
         {/* home banner section html start */}
         <section
           class="home-banner"
-          style={{ backgroundImage: "url(assets/images/banner-img.jpg)" }}
+          style={{ backgroundImage: "url(https://scontent.frba3-2.fna.fbcdn.net/v/t39.30808-6/347142254_924476702146153_6628312326437862807_n.jpg?stp=dst-jpg_p960x960&_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=tdTponUaMVsAX9WBnJ-&_nc_ht=scontent.frba3-2.fna&oh=00_AfDmZszjUhovKaoYAI1mDy2fIrIfmuqXewu_7u4t3fzD7Q&oe=64915770)" }}
         >
           <div class="container">
          

@@ -12,7 +12,7 @@ const contact = () => {
          <main id="content" class="site-main">
   {/*  <!-- Inner Banner html start-->*/}
             <section class="inner-banner-wrap">
-               <div class="inner-baner-container" style={{backgroundImage: "url(assets/images/inner-banner-img-1.jpg)"}}>
+               <div class="inner-baner-container" style={{backgroundImage: "url(https://scontent.frba3-2.fna.fbcdn.net/v/t39.30808-6/347142254_924476702146153_6628312326437862807_n.jpg?stp=dst-jpg_p960x960&_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=tdTponUaMVsAX9WBnJ-&_nc_ht=scontent.frba3-2.fna&oh=00_AfDmZszjUhovKaoYAI1mDy2fIrIfmuqXewu_7u4t3fzD7Q&oe=64915770)"}}>
                   <div class="container">
                      <div class="inner-banner-content">
                         <h1 class="inner-title">راسلنا</h1>

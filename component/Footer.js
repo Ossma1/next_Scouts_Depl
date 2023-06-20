@@ -11,12 +11,12 @@ const Footer = () => {
                      <div class="row">
                         <div class="col-lg-4 col-md-6">
                            <aside class="widget widget_text">
-                              <div class="footer-logo">
+                              <div  class="text-center footer-logo">
 
-                                 <a href="index.html"><img src="assets/images/site-logo1.png" alt=""/></a>
+                                 <a href="index.html"><img width={"100px"}   src="https://www.edulink.ma/wp-content/uploads/scouts2.jpg" alt=""/></a>
                               </div>
-                              <div class="textwidget widget-text">
-                                 Vitae, cupiditate repudiandae, erat beatae voluptate vulputate quis tempora deserunt, nobis, montes. Illo eleifend, nihil lorem venenat.
+                              <div class="textwidget text-center widget-text">
+                              مؤسسة رائدة في العمل الكشفي وطنيا و دوليا ينظر إليها الجميع أفرادا و مؤسسات باعتبارها النموذج الأمثل و المرجع في صناعة الفرد الصالح 
                               </div>
                            </aside>
                         </div>
