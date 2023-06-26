@@ -14,7 +14,7 @@ export default function camps() {
  <main id="content" class="site-main">
 
  <section class="inner-banner-wrap">
-    <div class="inner-baner-container"  style={{backgroundImage:" url(https://scontent.frba3-2.fna.fbcdn.net/v/t39.30808-6/347142254_924476702146153_6628312326437862807_n.jpg?stp=dst-jpg_p960x960&_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=tdTponUaMVsAX9WBnJ-&_nc_ht=scontent.frba3-2.fna&oh=00_AfDmZszjUhovKaoYAI1mDy2fIrIfmuqXewu_7u4t3fzD7Q&oe=64915770)"}}>
+    <div class="inner-baner-container"  style={{backgroundImage:" url(https://static.lematin.ma/files/lematin/images/articles/2017/07/Jeunesse-Ouverture-officielle-du-rassemblement.jpg)"}}>
        <div class="container">
           <div class="inner-banner-content">
              <h1 class="inner-title">برامج الجمعية</h1>
@@ -65,33 +65,33 @@ export default function camps() {
                               <h4 class="  bg-title">برامج حصصية </h4>
                               <ul >
                                  <li >
-                                    <a   style={{width:"60%", textAlign:"right"}} href="#1">	•	صبحيات وأمسيات تربوية </a>
-                                    <a  style={{textAlign:"right"}} href="#1">	•	ورشات المسرح والتعبير الجسدي </a>
+                                    <a   style={{ textAlign:"right"}} href="#1">	صبحيات وأمسيات تربوية • </a>
+                                    <a  style={{textAlign:"right"}} href="#1">ورشات المسرح والتعبير الجسدي •</a>
                                  </li>
                                  <li >
-                                    <a  style={{textAlign:"right"}} href="#1">	•	نادي الأنشودة </a>
-                                    <a  style={{textAlign:"right"}} href="#1">	•	ألعاب داخلية </a>
+                                    <a  style={{textAlign:"right"}} href="#1">	نادي الأنشودة •</a>
+                                    <a  style={{textAlign:"right"}} href="#1">		ألعاب داخلية •</a>
                                  </li>
                                  <li >
-                                    <a  style={{textAlign:"right"}} href="#1">	•	ورشات المعامل التربوية </a>
-                                    <a  style={{textAlign:"right"}} href="#1">	•	ورشات الفنون التشكيلية. </a>
+                                    <a  style={{textAlign:"right"}} href="#1">	ورشات المعامل التربوية •</a>
+                                    <a  style={{textAlign:"right"}} href="#1">		ورشات الفنون التشكيلية •</a>
                                  </li>
                                  <li >
-                                 <a  style={{textAlign:"right"}} href="#1">	•	نادي الأدب والشعر </a>
-                                 <a  style={{textAlign:"right"}} href="#1">	•	النادي الرياضي </a>
+                                 <a  style={{textAlign:"right"}} href="#1">		نادي الأدب والشعر •</a>
+                                 <a  style={{textAlign:"right"}} href="#1">		النادي الرياضي •</a>
                                  </li>
                                  <li >
-                                 <a  style={{textAlign:"right"}} href="#1">	•	ورشات الشطرنج وألعاب الذكاء </a>
-                                 <a  style={{textAlign:"right"}} href="#1">	•	دروس الدعم التربوي المدرسي </a>
+                                 <a  style={{textAlign:"right"}} href="#1">	ورشات الشطرنج وألعاب الذكاء •</a>
+                                 <a  style={{textAlign:"right"}} href="#1">		دروس الدعم التربوي المدرسي •</a>
                                  </li>
                                  <li >
-                                    <a  style={{textAlign:"right"}} href="#1">	•	مسابقات ثقافية </a>
-                                    <a  style={{textAlign:"right"}} href="#1">	•	مسابقات تجويد وحفظ القرآن الكريم <br></br>والأحاديث النبوية الشريفة </a>
+                                    <a  style={{textAlign:"right"}} href="#1">مسابقات ثقافية •</a>
+                                    <a  style={{textAlign:"right"}} href="#1">		مسابقات تجويد وحفظ القرآن الكريم •<br></br>والأحاديث النبوية الشريفة </a>
                                  </li>
                                     
                                     <li >
-                                    <a  style={{textAlign:"right"}} href="#1">	•	المهارات الكشفية </a>
-                                    <a  style={{textAlign:"right"}} href="#1">	•	دورات تدريبية داخلية للتنمية البشرية، <br></br>نادي الإعلاميات والإنترنيت </a>
+                                    <a  style={{textAlign:"right"}} href="#1">		المهارات الكشفية •</a>
+                                    <a  style={{textAlign:"right"}} href="#1">		دورات تدريبية داخلية للتنمية البشرية •<br></br>نادي الإعلاميات والإنترنيت </a>
                                  </li>
                                
                            
@@ -120,7 +120,7 @@ export default function camps() {
              <div class="sidebar">
                 
                
-                <div class="widget widget-bg information-content widget-bg-image text-center" style={{backgroundImage: "url(assets/images/banner-img.jpg)"}}>
+                <div class="widget widget-bg information-content widget-bg-image text-center" style={{backgroundImage: "url(https://bnj.blob.core.windows.net/assets/Htdocs/Images/Pictures/2695104.jpg?puid=877bcf27-1fbc-45c5-a4c0-58afef95f35c)"}}>
                    <h3>انضم إلينا الآن</h3>
                    <h4 > جمعية كشافة المغرب  تقدر مجهوداتكم ، واقتراحاتكم ، واستفساراتكم</h4>
                      

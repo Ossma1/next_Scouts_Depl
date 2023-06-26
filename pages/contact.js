@@ -12,7 +12,7 @@ const contact = () => {
          <main id="content" class="site-main">
   {/*  <!-- Inner Banner html start-->*/}
             <section class="inner-banner-wrap">
-               <div class="inner-baner-container" style={{backgroundImage: "url(https://scontent.frba3-2.fna.fbcdn.net/v/t39.30808-6/347142254_924476702146153_6628312326437862807_n.jpg?stp=dst-jpg_p960x960&_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=tdTponUaMVsAX9WBnJ-&_nc_ht=scontent.frba3-2.fna&oh=00_AfDmZszjUhovKaoYAI1mDy2fIrIfmuqXewu_7u4t3fzD7Q&oe=64915770)"}}>
+               <div class="inner-baner-container" style={{backgroundImage: "url(https://static.lematin.ma/files/lematin/images/articles/2017/07/Jeunesse-Ouverture-officielle-du-rassemblement.jpg)"}}>
                   <div class="container">
                      <div class="inner-banner-content">
                         <h1 class="inner-title">راسلنا</h1>
@@ -72,7 +72,7 @@ const contact = () => {
                            </div>
                         </div>
                         <div class="mt-lg-5 col-md-6">
-                           <div class="contact-from-wrap"  style={{backgroundImage: "url(assets/images/banner-img.jpg)"}}>
+                           <div class="contact-from-wrap"  style={{backgroundImage: "url(https://bnj.blob.core.windows.net/assets/Htdocs/Images/Pictures/2695104.jpg?puid=877bcf27-1fbc-45c5-a4c0-58afef95f35c)"}}>
                                                          <form class="contact-from">
                                  <p>
                                     <input type="text" name="name"  placeholder="أكتب الاسم"/>

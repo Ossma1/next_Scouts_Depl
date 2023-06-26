@@ -10,7 +10,6 @@ export default function Document() {
         <Main />
         <NextScript />
         <script src="assets/js/timeline.js"></script>
-        
         </body>
     </Html>
   )

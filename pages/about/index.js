@@ -19,7 +19,7 @@ const about = () => {
           <div
             class="inner-baner-container"
             style={{
-              backgroundImage: "url(https://scontent.frba3-2.fna.fbcdn.net/v/t39.30808-6/347142254_924476702146153_6628312326437862807_n.jpg?stp=dst-jpg_p960x960&_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=tdTponUaMVsAX9WBnJ-&_nc_ht=scontent.frba3-2.fna&oh=00_AfDmZszjUhovKaoYAI1mDy2fIrIfmuqXewu_7u4t3fzD7Q&oe=64915770)",
+              backgroundImage: "url(https://static.lematin.ma/files/lematin/images/articles/2017/07/Jeunesse-Ouverture-officielle-du-rassemblement.jpg)",
             }}
           >
             <div class="container">
@@ -53,7 +53,7 @@ const about = () => {
              
         <img
                        style={{position:"absolute",top:"0px",bottom:"0px"}}
-                        src="https://scontent.frba3-2.fna.fbcdn.net/v/t39.30808-6/347142254_924476702146153_6628312326437862807_n.jpg?stp=dst-jpg_p960x960&_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=tdTponUaMVsAX9WBnJ-&_nc_ht=scontent.frba3-2.fna&oh=00_AfDmZszjUhovKaoYAI1mDy2fIrIfmuqXewu_7u4t3fzD7Q&oe=64915770"
+                        src="https://static.lematin.ma/files/lematin/images/articles/2017/07/Jeunesse-Ouverture-officielle-du-rassemblement.jpg"
                         alt=""
                       />
                 <div style={{backgroundColor:"transparent"}} class="overlay"></div>
@@ -184,34 +184,34 @@ const about = () => {
                 </span>
               </h2>
   
-              <div id="iconbox-container-bg2" class="iconbox-container-bg">
+              <div id="iconbox-container-bg" class="iconbox-container-bg">
                 <div class="iconbox-item-bg1 iconbox-item-bg">
                   <div class="iconbox-content-bg">
-                    <i aria-hidden="true" class="fas fa-smog"></i>
+                    <i aria-hidden="true" class="fas fa-star"></i>
                     <h4>الفاعلية</h4>
                   </div>
                 </div>
                 <div class="iconbox-item-bg1 iconbox-item-bg">
                   <div class="iconbox-content-bg">
-                    <i aria-hidden="true" class="icon icon-Leaf"></i>
+                  <i aria-hidden="true"  class="fas fa-star"></i>
                     <h4>الكفاءة</h4>
                   </div>
                 </div>
                 <div class="iconbox-item-bg1 iconbox-item-bg">
                   <div class="iconbox-content-bg">
-                    <i aria-hidden="true" class="fas fa-fill-drip"></i>
+                  <i aria-hidden="true"  class="fas fa-star"></i>
                     <h4>الإنتاجية</h4>
                   </div>
                 </div>
                 <div class="iconbox-item-bg1 iconbox-item-bg">
                   <div class="iconbox-content-bg">
-                    <i aria-hidden="true" class="fas fa-fill-drip"></i>
+                  <i aria-hidden="true"  class="fas fa-star"></i>
                     <h4>المسؤولية</h4>
                   </div>
                 </div>
                 <div class="iconbox-item-bg1 iconbox-item-bg">
                   <div class="iconbox-content-bg">
-                    <i aria-hidden="true" class="fas fa-fill-drip"></i>
+                  <i aria-hidden="true"  class="fas fa-star"></i>
                     <h4>الالتزام</h4>
                   </div>
                 </div>
@@ -232,19 +232,19 @@ const about = () => {
             <div class="iconbox-container-bg">
               <div class="iconbox-item-bg">
                 <div class="iconbox-content-bg">
-                  <i aria-hidden="true" class="fas fa-smog"></i>
+                  <i aria-hidden="true" class="fas fa-star"></i>
                   <h4>الجودة</h4>
                 </div>
               </div>
               <div class="iconbox-item-bg">
                 <div class="iconbox-content-bg">
-                  <i aria-hidden="true" class="icon icon-Leaf"></i>
+                  <i aria-hidden="true" class="fas fa-star"></i>
                   <h4>الشمولية</h4>
                 </div>
               </div>
               <div class="iconbox-item-bg">
                 <div class="iconbox-content-bg">
-                  <i aria-hidden="true" class="fas fa-fill-drip"></i>
+                  <i aria-hidden="true" class="fas fa-star"></i>
                   <h4>التخصص</h4>
                 </div>
               </div>
@@ -266,20 +266,20 @@ const about = () => {
               <div class="iconbox-container-bg">
                 <div class="iconbox-item-bg">
                   <div class="iconbox-content-bg">
-                    <i aria-hidden="true" class="fas fa-smog"></i>
+                    <i aria-hidden="true" class="fas fa-star"></i>
                     <h4>الإنجاز</h4>
                     
                   </div>
                 </div>
                 <div class="iconbox-item-bg">
                   <div class="iconbox-content-bg">
-                    <i aria-hidden="true" class="icon icon-Leaf"></i>
+                    <i aria-hidden="true" class="fas fa-star"></i>
                     <h4>تطور الأداء</h4>
                   </div>
                 </div>
                 <div class="iconbox-item-bg">
                   <div class="iconbox-content-bg">
-                    <i aria-hidden="true" class="fas fa-fill-drip"></i>
+                    <i aria-hidden="true" class="fas fa-star"></i>
                     <h4>
                     مؤسسة دائمة التعلم <br></br>و التجديد
                   </h4>
@@ -467,7 +467,7 @@ const about = () => {
       <!-- home callback section html start -->*/}
           <div
             class="callback-inner-page"
-            style={{ backgroundImage: "url(/assets/images/banner-img.jpg);" }}
+            style={{ backgroundImage: "url(https://bnj.blob.core.windows.net/assets/Htdocs/Images/Pictures/2695104.jpg?puid=877bcf27-1fbc-45c5-a4c0-58afef95f35c);" }}
           >
             <div class="container">
               <div class="row">

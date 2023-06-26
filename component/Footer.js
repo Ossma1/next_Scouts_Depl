@@ -12,7 +12,7 @@ const Footer = () => {
                            <aside class="widget widget_text">
                               <div  class="text-center footer-logo">
 
-                                 <a href="/"><img width={"100px"}   src="https://www.edulink.ma/wp-content/uploads/scouts2.jpg" alt=""/></a>
+                                 <a href="/"><img width={"100px"}   src="assets/images/logo.png" alt=""/></a>
                               </div>
                               <div class="textwidget text-center widget-text">
                               مؤسسة رائدة في العمل الكشفي وطنيا و دوليا ينظر إليها الجميع أفرادا و مؤسسات باعتبارها النموذج الأمثل و المرجع في صناعة الفرد الصالح 
@@ -72,7 +72,7 @@ const Footer = () => {
                      <div class="row align-items-center">
                         <div class="col-lg-6">
                            <div class="footer-newsletter">
-                              <h5>اشترك معنا للحصول على المزيد من التحديثات والأخبار!!</h5>
+                              <h5>!! اشترك معنا للحصول على المزيد من التحديثات والأخبار</h5>
                               <form class="newsletter">
                                  <input style={{paddingRight:"88px"}} type="email" name="email" placeholder="أدخل بريدك الإلكتروني"/>
                                  <button type="submit" class="button-round-primary">اشترك</button>
@@ -125,7 +125,7 @@ const Footer = () => {
             </div>
             <div class="bottom-footer">
                <div class="container">
-                  <div class="copy-right text-center">حقوق النشر © 2022 إنفايرن. جميع الحقوق محفوظة.</div>
+                  <div class="copy-right text-center">.حقوق النشر © 2022 إنفايرن. جميع الحقوق محفوظة</div>
                </div>
             </div>
             
